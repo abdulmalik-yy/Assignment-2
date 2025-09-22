@@ -60,6 +60,7 @@ body {
 .text-box {
     display: grid;
     place-items: center;
+    text-align: justify;
 }
 
 
@@ -94,6 +95,7 @@ body {
 .text-container {
     display: grid;
     padding: 20px;
+    text-align: justify;
 }
 
 
@@ -122,6 +124,7 @@ body {
 .text-section {
     display: grid;
     padding: 20px; 
+    text-align: justify;
 }
 
 .text-section h3, .text-container h3 {
@@ -138,7 +141,7 @@ body {
         gap: 15px;
     }
 
-    .image, .text.container {
+    .image {
         padding: 25px;
     }
 
@@ -162,6 +165,7 @@ body {
         grid-template-columns: 1fr;
         font-size: 1.2prem;
         margin: 10px;
+        text-align: justify;
     }
 
     .image img:hover {
